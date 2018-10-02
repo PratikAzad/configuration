@@ -5,10 +5,10 @@ spring:
     jpa:
         database: MYSQL
         hibernate:
-            ddl-auto: validate
+            ddl-auto: create
 
     datasource:
-        url: jdbc:mysql://mysql:3306/demo
-        username: demo_user
-        password: demo_pass
+        url: jdbc:mysql://mysql:3306/springdb
+        username: root
+        password: 7777
         driver-class-name: com.mysql.jdbc.Driver
