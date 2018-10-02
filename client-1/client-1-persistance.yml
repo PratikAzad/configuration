@@ -1,13 +1,12 @@
 server:
-  port: 8029
-  
-spring:
-    jpa:
-        hibernate:
-            ddl-auto: create
+  port: 8019
 
-    datasource:
-        url: jdbc:mysql://mysql:3306/springdb
-        username: root
-        password: 7777
-        driver-class-name: com.mysql.jdbc.Driver
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springdb
+    username: root
+    password: 7777
+  jpa:
+    hibernate:
+      ddl-auto: update
